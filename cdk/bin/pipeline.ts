@@ -8,7 +8,7 @@ const app = new App();
 // Add the cdk-nag AwsSolutions Pack with extra verbose logging enabled.
 Aspects.of(app).add(new AwsSolutionsChecks({ verbose: true }))
 
-new CdkPipelineStack(app, 'CDKMltAccntRegPipelnStack', {
+new CdkPipelineStack(app, 'CDKMltAccntRegPipelnStackWithfix', {
   env: { 
     account: process.env.CDK_DEFAULT_ACCOUNT, 
     region: process.env.CDK_DEFAULT_REGION 
