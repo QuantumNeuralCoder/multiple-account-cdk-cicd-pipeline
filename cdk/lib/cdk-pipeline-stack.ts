@@ -41,7 +41,7 @@ export class CdkPipelineStack extends Stack {
 
     const githubOrg = process.env.GITHUB_ORG || "QuantumNeuralCoder";
     const githubRepo = process.env.GITHUB_REPO || "multiple-account-cdk-cicd-pipeline";
-    const githubBranch = process.env.GITHUB_BRANCH || "main";
+    const githubBranch = process.env.GITHUB_BRANCH || "paulfix";
     const devAccountId = process.env.DEV_ACCOUNT_ID || "924310372990";
     const stgAccountId = process.env.STG_ACCOUNT_ID || "920372995415";
     const prdAccountId = process.env.PRD_ACCOUNT_ID || "813021164746";
